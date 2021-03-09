@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <!-- <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script> -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-wrap">
+        <header>
+            <div class="logo"><img src="images/logo1.png" alt="저스트쇼핑몰"></div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li>
+                        <div>탑</div>
+                        <ul>
+                            <li>블라우스</li>
+                            <li>티</li>
+                            <li>셔츠</li>
+                            <li>니트</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>아우터</div>
+                        <ul>
+                            <li>자켓</li>
+                            <li>코트</li>
+                            <li>가디건</li>
+                            <li>머플러</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>팬츠</div>
+                        <ul>
+                            <li>청바지</li>
+                            <li>짧은바지</li>
+                            <li>긴바지</li>
+                            <li>레깅스</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>악세서리</div>
+                        <ul>
+                            <li>귀고리</li>
+                            <li>목걸이</li>
+                            <li>반지</li>
+                            <li>팔찌</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="slider">
+            <img src="images/slideimg1.jpg" alt="slideimg1">
+            <img src="images/slideimg2.jpg" alt="slideimg2">
+            <img src="images/slideimg3.jpg" alt="slideimg3">
+        </div>
+
+        <div class="contents">
+            <div class="notice">
+                <ul class="titles">
+                    <li class="notice on" data-num="1">공지사항</li>
+                    <li class="img" data-num="2">갤러리</li>
+                </ul>
+                <div class="notice-box">
+                    <div>
+                        <table class="notice-table">
+                            <tr >
+                                <td onclick="onPopup()">2020 론칭기념 특별 할인 이벤트</td>
+                                <td>2020-04-08</td>
+                            </tr>
+                            <tr>
+                                <td>논현동 쇼룸4월 휴무 안내</td>
+                                <td>2020-04-07</td>
+                            </tr>
+                            <tr>
+                                <td>2020 코엑스 패션박람회 안내</td>
+                                <td>2020-04-06</td>
+                            </tr>
+                            <tr>
+                                <td>상반기 이벤트 안내</td>
+                                <td>2020-04-05</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="gallery hidden">
+                        <div style="display: flex; width: 100%; height: 100%;  justify-content: space-evenly;">
+                            <img src="images/g1.jpeg" alt="img1">
+                            <img src="images/g2.jpeg" alt="img2">
+                            <img src="images/g3.jpeg" alt="img3">
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="contents-img">
+                <img src="images/b1.png" alt="b1">
+                <img src="images/b2.png" alt="b2">
+                <img src="images/b3.png" alt="b3">
+                <img src="images/b4.png" alt="b4">
+            </div>
+            <div class="contents-link">
+                <div><a href="#">스폰서1</a></div>
+                <div><a href="#">스폰서2</a></div>
+                <div><a href="#">스폰서3</a></div>
+                <div><a href="#">스폰서4</a></div>
+            </div>
+        </div>
+        <footer>
+            <img src="images/logo2.png" alt="저스트쇼핑몰">
+            <p>Copyright 2019 JUST쇼핑몰 All rights reserved.</p>
+            <div class="f-icon-list">
+                <div>F</div>
+                <div>i</div>
+                <div>T</div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="popup">
+        2020년도 JUST쇼핑몰의 야심작 꿈의 여행에 대한 론칭 패션쇼를 기념하여 4월 한달 특별 할인 이벤트를 진행합니다.
+고객님들의 많은 성원과 관심 부탁드립니다.
+        <button class="popup-close" onclick="hidePopup()">닫기</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
