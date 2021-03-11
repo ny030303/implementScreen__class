@@ -8,6 +8,7 @@
 
 * Green복지재단
   * Green 내코드 폴더: https://github.com/ny030303/implementScreen__class/tree/master/green
-    * index -> menu (뒷배경x): https://github.com/ny030303/implementScreen__class/blob/master/green/index.html
-    * index -> menu가 뒷배경과 같이나오는 것(뒷배경 호버x): https://github.com/ny030303/implementScreen__class/blob/master/green/index2.html
-    * index -> menu가 뒷배경과 같이나오는 것(뒷배경 호버o): https://github.com/ny030303/implementScreen__class/blob/master/green/index3.html
+    * index -> menu 호버시 다같이 내려오는 것(뒷배경 없음): https://github.com/ny030303/implementScreen__class/blob/master/green/index.html
+        * index -> menu가 뒷배경과 같이나오는 것(뒷배경 호버x): https://github.com/ny030303/implementScreen__class/blob/master/green/index2.html
+        * index -> menu가 뒷배경과 같이나오는 것(뒷배경 호버o): https://github.com/ny030303/implementScreen__class/blob/master/green/index3.html
+     * index -> menu 호버시 하나씩 내려오는 것: https://github.com/ny030303/implementScreen__class/blob/master/green/index4.html
