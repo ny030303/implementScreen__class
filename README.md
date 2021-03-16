@@ -12,3 +12,6 @@
         * index -> menu가 뒷배경과 같이나오는 것(뒷배경 호버x): https://github.com/ny030303/implementScreen__class/blob/master/green/index2.html
         * index -> menu가 뒷배경과 같이나오는 것(뒷배경 호버o): https://github.com/ny030303/implementScreen__class/blob/master/green/index3.html
      * index -> menu 호버시 하나씩 내려오는 것: https://github.com/ny030303/implementScreen__class/blob/master/green/index4.html
+
+* 산업대학교
+    * 산업대학교 내코드: https://github.com/ny030303/implementScreen__class/tree/master/university
