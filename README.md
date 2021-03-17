@@ -15,3 +15,6 @@
 
 * 산업대학교
     * 산업대학교 내코드: https://github.com/ny030303/implementScreen__class/tree/master/university
+
+* 강원천문대
+    * 강원천문대 내코드: https://github.com/ny030303/implementScreen__class/tree/master/observatory

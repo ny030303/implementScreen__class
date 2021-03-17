@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main-wrap">
+        <header>
+            <img src="./images/logo1.png" alt="logo">
+            <div class="menu-wrap">
+                <ul class="menu">
+                    <li>
+                        <p><a href="#">강원천문대</a></p>
+                        <ul class="sub-menu">
+                            <li>천문대소개</li>
+                            <li>인사말</li>
+                            <li>오시는길</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><a href="#">이용안내</a></p>
+                        <ul class="sub-menu">
+                            <li>프로그램</li>
+                            <li>관람시간표</li>
+                            <li>이달의 별자리</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><a href="#">천문대예약</a></p>
+                        <ul class="sub-menu">
+                            <li>예약하기</li>
+                            <li>예약확인</li>
+                            <li>예약취소</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><a href="#">커뮤니티</a></p>
+                        <ul class="sub-menu">
+                            <li>공지사항</li>
+                            <li>방문후기</li>
+                            <li>자유게시판</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <article class="slider">
+            <img src="./images/slideimg1.jpg" alt="s1">
+            <img src="./images/slideimg2.jpg" alt="s2">
+            <img src="./images/slideimg3.jpg" alt="s3">
+        </article>
+        <article class="contents">
+            <div class="c-left">
+                <ul class="c-left-title">
+                    <li class="on" data-num="0">공지사항</li>
+                    <li data-num="1">갤러리</li>
+                </ul>
+                <div class="notice on">
+                    <table>
+                        <tr onclick="onPopup()">
+                            <td><a href="#">2020 론칭기념 특별 할인 이벤트</a></td>
+                            <td><a href="#">2020-04-08</a></td>
+                        </tr>
+                        <tr>
+                            <td>논현동 쇼룸4월 휴무 안내 </td>
+                            <td>2020-04-07</td>
+                        </tr>
+                        <tr>
+                            <td>2020 코엑스 패션박람회 안내</td>
+                            <td>2020-04-06</td>
+                        </tr>
+                        <tr>
+                            <td>상반기 이벤트 안내</td>
+                            <td>2020-04-05</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="gallery">
+                    <img src="./images/g1.jpeg" alt="g1">
+                    <img src="./images/g2.jpeg" alt="g2">
+                    <img src="./images/g3.jpeg" alt="g3">
+                </div>
+            </div>
+
+            <div class="banner">
+                <img src="./images/b1.png" alt="b1">
+                <img src="./images/b2.png" alt="b2">
+                <img src="./images/b3.png" alt="b3">
+                <img src="./images/b4.png" alt="b4">
+            </div>
+
+            <div class="link">
+                <p><a href="#">스폰서1</a></p>
+                <p><a href="#">스폰서2</a></p>
+                <p><a href="#">스폰서3</a></p>
+                <p><a href="#">스폰서4</a></p>
+            </div>
+        </article>
+        <footer>
+            <img src="./images/logo1.png" alt="logo">
+            <div class="f-right">
+                <div class="f-menu">menu1 | menu2 | menu3</div>
+                <div class="f-copyright">Copyright 2019 JUST쇼핑몰 All rights reserved.</div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="popup">
+        <h3>타이틀</h3>
+        <p>2020년도 JUST쇼핑몰의 야심작 꿈의 여행에 대한 론칭 패션쇼를 기념하여 4월 한달 특별 할인 이벤트를 진행합니다.
+            고객님들의 많은 성원과 관심 부탁드립니다.</p>
+        <button onclick="closePopup()">닫기</button>
+    </div>
+</body>
+<script src="./jquery-3.3.1.js"></script>
+<script src="./app.js"></script>
+</html>
