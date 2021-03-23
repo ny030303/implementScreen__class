@@ -18,3 +18,8 @@
 
 * 강원천문대
     * 강원천문대 내코드: https://github.com/ny030303/implementScreen__class/tree/master/observatory
+
+### 문제 부분 연습
+* 세로 메뉴 구현: https://github.com/ny030303/implementScreen__class/tree/master/vertical-menu
+    * 24p: 세로 메인메뉴에 마우스 호버시 메인이미지 영역 위에 해당 서브메뉴 그룹 나타나기
+    * 28p: 세로 메인메뉴에 마우스 호버시 메뉴영역에 해당 서브메뉴 그룹 내려오기
