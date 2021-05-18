@@ -20,6 +20,8 @@
     * 내 코드: https://github.com/ny030303/implementScreen__class/tree/master/observatory
 * 해운대 빛축제
     * 내 코드: https://github.com/ny030303/implementScreen__class/tree/master/light-festival
+* 부여 가을연꽃축제
+     * 내 코드: https://github.com/ny030303/implementScreen__class/tree/master/lotus-festival
 
 ### 문제 부분 연습
 * 세로 메뉴 구현: https://github.com/ny030303/implementScreen__class/tree/master/vertical-menu
