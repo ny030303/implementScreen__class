@@ -22,6 +22,8 @@
     * 내 코드: https://github.com/ny030303/implementScreen__class/tree/master/light-festival
 * 부여 가을연꽃축제
      * 내 코드: https://github.com/ny030303/implementScreen__class/tree/master/lotus-festival
+* 대한투어
+     * 내 코드: https://github.com/ny030303/implementScreen__class/tree/master/daehan-tour
 
 ### 문제 부분 연습
 * 세로 메뉴 구현: https://github.com/ny030303/implementScreen__class/tree/master/vertical-menu
